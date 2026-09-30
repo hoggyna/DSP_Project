@@ -1,0 +1,35 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Dataset (12.7 GB) + ผลลัพธ์ที่สร้างใหม่ได้
+data/
+results/features/
+
+# Claude Code notes (local only)
+CLAUDE.md
+.claude/settings.local.json
+
+# Course slides (copyright: Educational Use only)
+Slide/
+
+# Personal info (name + student ID)
+Project_Proposal_6710504166_Pittinan.pdf
+Proposal.txt
+
+# Editors
+.vscode/
+.idea/
+
+# Secrets (e.g. HF_TOKEN) and logs
+.env
+*.log
+
+# Hugging Face cache
+.cache/
